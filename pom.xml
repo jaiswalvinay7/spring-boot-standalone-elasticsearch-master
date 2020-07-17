@@ -7,7 +7,7 @@
 	<groupId>com.example</groupId>
 	<artifactId>standalone-elasticsearch</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 
 	<name>Spring Boot Elasticsearch</name>
 	<description>Demo project for Spring Boot</description>
@@ -63,6 +63,7 @@
 			<artifactId>log4j-api</artifactId>
 			<version>2.7</version>
 		</dependency>
+		
 		<dependency>
 			<groupId>org.apache.logging.log4j</groupId>
 			<artifactId>log4j-core</artifactId>
